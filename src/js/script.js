@@ -1,3 +1,9 @@
+let cookie = document.querySelector(".cookie")
+let cookieClose = document.querySelector(".cookie__close")
+
+cookieClose.addEventListener('click',function(){
+    cookie.style.display = 'none';
+})
 let cardItem = document.querySelectorAll('.card-item');
 
 for(let i = 0; i<cardItem.length; i++){
